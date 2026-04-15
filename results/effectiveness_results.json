@@ -1,0 +1,19 @@
+{
+  "FedAvg_IID": {
+    "macro_f1": 0.7562,
+    "micro_f1": 0.9485,
+    "hamming_loss": 0.0515,
+    "total_time_s": 7.49
+  },
+  "FedAvg_nonIID": {
+    "macro_f1": 0.7565,
+    "micro_f1": 0.9495,
+    "hamming_loss": 0.0505,
+    "total_time_s": 6.31
+  },
+  "Centralised": {
+    "macro_f1": 0.7892,
+    "micro_f1": 0.9867,
+    "hamming_loss": 0.0133
+  }
+}

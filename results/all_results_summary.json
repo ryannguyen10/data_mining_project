@@ -1,0 +1,65 @@
+{
+  "effectiveness": {
+    "FedAvg_IID": {
+      "macro_f1": 0.7562,
+      "micro_f1": 0.9485,
+      "hamming_loss": 0.0515,
+      "total_time_s": 7.49
+    },
+    "FedAvg_nonIID": {
+      "macro_f1": 0.7565,
+      "micro_f1": 0.9495,
+      "hamming_loss": 0.0505,
+      "total_time_s": 6.31
+    },
+    "Centralised": {
+      "macro_f1": 0.7892,
+      "micro_f1": 0.9867,
+      "hamming_loss": 0.0133
+    }
+  },
+  "efficiency_summary": {
+    "10": {
+      "total_s": 1.171,
+      "avg_per_round_s": 0.11,
+      "min_round_s": 0.107,
+      "max_round_s": 0.1147
+    },
+    "20": {
+      "total_s": 2.515,
+      "avg_per_round_s": 0.1193,
+      "min_round_s": 0.1049,
+      "max_round_s": 0.174
+    },
+    "30": {
+      "total_s": 3.472,
+      "avg_per_round_s": 0.1101,
+      "min_round_s": 0.1036,
+      "max_round_s": 0.1302
+    },
+    "50": {
+      "total_s": 5.86,
+      "avg_per_round_s": 0.1118,
+      "min_round_s": 0.1034,
+      "max_round_s": 0.1504
+    }
+  },
+  "scalability": {
+    "dataset": "com-dblp",
+    "n_nodes": 317080,
+    "prep_time_s": 52.59,
+    "FedAvg_IID": {
+      "macro_f1": 0.986,
+      "micro_f1": 0.9873,
+      "hamming_loss": 0.0127,
+      "total_time_s": 29.39
+    },
+    "FedAvg_nonIID": {
+      "macro_f1": 0.9546,
+      "micro_f1": 0.9547,
+      "hamming_loss": 0.0453,
+      "total_time_s": 27.91
+    }
+  },
+  "total_experiment_time_s": 244.12
+}

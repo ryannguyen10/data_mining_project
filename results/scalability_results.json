@@ -1,0 +1,17 @@
+{
+  "dataset": "com-dblp",
+  "n_nodes": 317080,
+  "prep_time_s": 52.59,
+  "FedAvg_IID": {
+    "macro_f1": 0.986,
+    "micro_f1": 0.9873,
+    "hamming_loss": 0.0127,
+    "total_time_s": 29.39
+  },
+  "FedAvg_nonIID": {
+    "macro_f1": 0.9546,
+    "micro_f1": 0.9547,
+    "hamming_loss": 0.0453,
+    "total_time_s": 27.91
+  }
+}
