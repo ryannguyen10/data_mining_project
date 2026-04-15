@@ -135,21 +135,17 @@ average neighbour degree, k-core number
 
 | Method | Macro-F1 | Micro-F1 | Hamming Loss |
 |--------|----------|----------|--------------|
-| FedAvg IID | — | — | — |
-| FedAvg non-IID | — | — | — |
-| Centralised | — | — | — |
-
-*(Fill in after running)*
+| FedAvg IID | 0.7562 | 0.9485 | 0.0515 |
+| FedAvg non-IID | 0.7565 | 0.9495 | 0.0505 |
+| Centralised | 0.7892 | 0.9867 | 0.0133 |
 
 ### Efficiency (CA-GrQc)
 
 | Rounds | Total Time (s) | Avg/Round (s) |
 |--------|----------------|---------------|
-| 10 | — | — |
-| 20 | — | — |
-| 50 | — | — |
-
-*(Fill in after running)*
+| 10 | 1.31 | 0.1240 |
+| 20 | 2.54 | 0.1208 |
+| 50 | 6.19 | 0.1177 |
 
 ---
 
